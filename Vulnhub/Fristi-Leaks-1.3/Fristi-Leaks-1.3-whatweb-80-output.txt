@@ -1,0 +1,1 @@
+http://192.168.31.174:80 [200 OK] Apache[2.2.15], Country[RESERVED][ZZ], HTTPServer[CentOS][Apache/2.2.15 (CentOS) DAV/2 PHP/5.3.3], IP[192.168.31.174], PHP[5.3.3], WebDAV[2]

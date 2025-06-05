@@ -1,0 +1,5 @@
+# Dirsearch started Wed Jun  4 13:02:09 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://192.168.31.174:80 -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -o Fristi-Leaks-1.3-dirsearch-80-wordlist-output.txt -q
+
+301   237B   http://192.168.31.174/images    -> REDIRECTS TO: http://192.168.31.174/images/
+301   235B   http://192.168.31.174/beer    -> REDIRECTS TO: http://192.168.31.174/beer/
+301   235B   http://192.168.31.174/cola    -> REDIRECTS TO: http://192.168.31.174/cola/

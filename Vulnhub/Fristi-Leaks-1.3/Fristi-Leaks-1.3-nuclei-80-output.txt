@@ -1,0 +1,21 @@
+[secrets-patterns-rules:onelogin_2] [global] [http] [info] https://github.com/login ["secret" value="575d7760a6cb3782f9aa47f2ad57bf5a1911822769061a630c89d4a9ed883923"]
+[secrets-patterns-rules:jiratoken_1] [global] [http] [info] https://app.datadoghq.com/account/login ["jira_all_required_fields&#34;, &#34;dataviz-graph-inspector-refacto"]
+[secrets-patterns-rules:mixpanel_1] [global] [http] [info] https://app.datadoghq.com/account/login ["mixpanel&#34;, &#34;display-tile-amazon-cloudfront"]
+[http-trace:trace-request] [http] [info] http://192.168.31.174:80
+[http-trace:options-request] [http] [info] http://192.168.31.174:80
+[waf-detect:apachegeneric] [http] [info] http://192.168.31.174:80
+[robots-txt-endpoint] [http] [info] http://192.168.31.174:80/robots.txt
+[options-method] [http] [info] http://192.168.31.174:80 ["GET,HEAD,POST,OPTIONS,TRACE"]
+[apache-detect] [http] [info] http://192.168.31.174:80 ["Apache/2.2.15 (CentOS) DAV/2 PHP/5.3.3"]
+[php-detect] [http] [info] http://192.168.31.174:80
+[http-missing-security-headers:content-security-policy] [http] [info] http://192.168.31.174:80
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://192.168.31.174:80
+[http-missing-security-headers:referrer-policy] [http] [info] http://192.168.31.174:80
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://192.168.31.174:80
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://192.168.31.174:80
+[http-missing-security-headers:strict-transport-security] [http] [info] http://192.168.31.174:80
+[http-missing-security-headers:permissions-policy] [http] [info] http://192.168.31.174:80
+[http-missing-security-headers:x-frame-options] [http] [info] http://192.168.31.174:80
+[http-missing-security-headers:x-content-type-options] [http] [info] http://192.168.31.174:80
+[http-missing-security-headers:clear-site-data] [http] [info] http://192.168.31.174:80
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://192.168.31.174:80
